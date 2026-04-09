@@ -2004,7 +2004,7 @@ Tachy's Playtest weapon."
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value" "0.65"
+					"value" "0.75"
 				}
 				"energy weapon no deflect"
 				{
@@ -2069,7 +2069,7 @@ Tachy's Playtest weapon."
 			"item_logname"	"aagun"
 			"item_iconname"	"aa_cannon"
 
-			"image_inventory"		"backpack/weapons/w_tachy_rainbow_aagun/w_tachy_rainbow_aagun"
+			"image_inventory"		"backpack/weapons/w_models/w_aagun"
 			"mouse_pressed_sound"	"ui/item_heavier_gun_pickup.wav"
 			"drop_sound"			"ui/item_heavier_gun_drop.wav"
 		}
@@ -2109,7 +2109,7 @@ Tachy's Playtest weapon."
 				"apply self knockback"
 				{
 					"attribute_class"	"apply_self_knockback"
-					"value"				"450"
+					"value"				"550"
 				}
 				"damage penalty"
 				{
@@ -2355,7 +2355,7 @@ Tachy's Playtest weapon."
 			"attributes"
 			{
 				"coilgun explain"					"1"
-				"tachy bounce explain"	 			{"value"	"7"}
+				"tachy bounce explain"	 			{"value"	"9"}
 				"tachy projectiles per shot explain"{"value"	"1"}
 				"ragdolls become ash"
 				{
@@ -2365,7 +2365,7 @@ Tachy's Playtest weapon."
 				"mod coil max bounces"
 				{
 					"attribute_class" "mult_dmg"
-					"value" "7"
+					"value" "9"
 				}
 				"mod max primary clip override"
 				{
@@ -2390,7 +2390,7 @@ Tachy's Playtest weapon."
 				"custom rampup"
 				{
 					"attribute_class"	"mod_custom_rampup"
-					"value"				"0.15"
+					"value"				"0.2"
 				}
 			}
 
