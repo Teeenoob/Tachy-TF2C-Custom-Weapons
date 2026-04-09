@@ -76,7 +76,7 @@ Damage is reduced for every bounce"
         {
             "name"                  "tachy projectiles per shot explain"
             "attribute_class"       "tachy_projectiles_per_shot_explain"
-            "description_string"    "Shots %s1 more projectiles"
+            "description_string"    "Shots %s1 more projectile(s)"
             "description_format"    "value_is_additive"
             "effect_type"           "positive"
         }
@@ -2354,7 +2354,7 @@ Tachy's Playtest weapon."
 			{
 				"coilgun explain"					"1"
 				"tachy bounce explain"	 			{"value"	"7"}
-				"tachy projectiles per shot explain"{"value"	"2"}
+				"tachy projectiles per shot explain"{"value"	"1"}
 				"ragdolls become ash"
 				{
 					"attribute_class"	"ragdolls_become_ash"
