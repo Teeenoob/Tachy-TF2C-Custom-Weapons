@@ -1818,7 +1818,7 @@ Tachy's Playtest weapon."
 				"custom rampup"
 				{
 					"attribute_class"	"mod_custom_rampup"
-					"value"				"0.5"
+					"value"				"0.45"
 				}
 				"mini rockets"
 				{
@@ -2009,7 +2009,7 @@ Tachy's Playtest weapon."
 				"fire rate bonus"
 				{
 					"attribute_class"	"mult_postfiredelay"
-					"value" "0.75"
+					"value" "0.7"
 				}
 				"energy weapon no deflect"
 				{
@@ -2346,86 +2346,6 @@ Tachy's Playtest weapon."
 			"image_inventory"		"backpack/weapons/w_models/w_bible"
 			"mouse_pressed_sound"	"ui/item_pack_pickup.wav"
 			"drop_sound"			"ui/item_pack_drop.wav"
-		}
-		"30110" // Coilgun - might delete later
-		{
-			"name"				"tachy_Coilgun"
-			"item_type_name"	"#TF_Weapon_Coilgun"
-			"item_name"			"tachy_Coilgun"
-			"item_description"	"Luck on my side!"
-			"item_quality"		"strange"
-			"propername"		"1"
-
-			"item_class"	"tf2c_weapon_coilgun"
-			"item_slot"		"secondary"
-			"used_by_classes"
-			{
-				"Engineer"	"1"
-			}
-			"attributes"
-			{
-				"coilgun explain"					"1"
-				"tachy bounce explain"	 			{"value"	"9"}
-				"tachy projectiles per shot explain"{"value"	"1"}
-				"ragdolls become ash"
-				{
-					"attribute_class"	"ragdolls_become_ash"
-					"value"				"1"
-				}
-				"mod coil max bounces"
-				{
-					"attribute_class" "mult_dmg"
-					"value" "9"
-				}
-				"mod max primary clip override"
-				{
-					"attribute_class"	"mod_max_primary_clip_override"
-					"value"				"1"
-				}
-				"damage bonus"
-				{
-					"attribute_class" "mult_dmg"
-					"value" "3" // make it 2 if it's too good
-				}
-				"mod projectiles per shot"
-				{
-					"attribute_class"	"mod_projectiles_per_shot"
-					"value"				"1"
-				}
-				"projectile spread angle penalty"
-				{
-					"attribute_class" "projectile_spread_angle"
-					"value" "20"
-				}
-				"custom rampup"
-				{
-					"attribute_class"	"mod_custom_rampup"
-					"value"				"0.25"
-				}
-			}
-
-			"model_world"				"models/weapons/w_models/w_coilgun.mdl"
-			"model_player"				"models/weapons/v_models/v_coilgun.mdl"
-			"attach_to_hands"			"2"
-			"static_attrs"
-			{
-				"min_viewmodel_offset"	"10 0 -10"
-			}
-			"visuals"
-			{
-				"animation_replacement"
-				{
-					"ACT_MP_RELOAD_STAND_SECONDARY"		"ACT_MP_RELOAD_STAND_PRIMARY_ALT"
-					"ACT_MP_RELOAD_CROUCH_SECONDARY"	"ACT_MP_RELOAD_CROUCH_PRIMARY_ALT"
-					"ACT_MP_RELOAD_SWIM_SECONDARY"		"ACT_MP_RELOAD_SWIM_PRIMARY_ALT"
-				}
-			}
-			"item_logname"	"coilgun"
-			"item_iconname"	"coilgun"
-
-			"image_inventory"		"backpack/weapons/w_models/w_coilgun"
-			"mouse_pressed_sound"	"ui/item_taser_gun_pickup.wav"
-			"drop_sound"			"ui/item_light_gun_drop.wav"
 		}
 	}
 }
