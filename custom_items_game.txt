@@ -519,7 +519,7 @@ Old Playtest weapon."
 			"inspect_panel_dist" 				"53"					
 			"model_player"	"models/weapons/c_models/c_boxing_gloves/c_boxing_gloves.mdl"
 			"attach_to_hands"	"1"
-			"item_quality"	"selfmade"
+			"item_quality"	"strange"
 			"propername"	"1"
 			"used_by_classes"
 			{
@@ -1716,7 +1716,7 @@ Old Playtest weapon."
 
 Weapon by: 'Tachy'.
 Tachy's Playtest weapon."
-			"item_quality"		"selfmade"
+			"item_quality"		"strange"
 
 			"item_class"	"tf_weapon_rocketlauncher"
 			"item_slot"		"primary"
@@ -1833,7 +1833,7 @@ Tachy's Playtest weapon."
 Weapon by: 'Tachy'.
 Tachy's Playtest weapon."
 			"item_slot"	"melee"
-			"item_quality"	"selfmade"
+			"item_quality"	"strange"
 			"item_logname"	"eureka_effect"
 			"item_iconname"	"eureka_effect"
 			"propername"	"1"
@@ -1921,7 +1921,7 @@ Tachy's Playtest weapon."
 
 Weapon by: 'Tachy'.
 Tachy's Playtest weapon."
-			"item_quality"		"selfmade"
+			"item_quality"		"strange"
 
 			"item_class"	"tf_weapon_sniperrifle"
 			"item_slot"		"primary"
@@ -1944,11 +1944,6 @@ Tachy's Playtest weapon."
 				{
 					"attribute_class"	"mod_set_sniper_laser_sight"
 					"value" "1"
-				}
-				"sniper only fire zoomed"
-				{
-					"attribute_class"	"sniper_only_fire_zoomed"
-					"value"	"1"
 				}
 				"tachy sniper laser sight explain"	"1"
 				"hidden primary max ammo bonus"
@@ -1979,7 +1974,7 @@ Tachy's Playtest weapon."
 
 Weapon by: 'Tachy'
 Tachy's Playtest weapon."
-			"item_quality"		"selfmade"
+			"item_quality"		"strange"
 
 			"item_class"				"tf2c_weapon_aagun"
 			"item_slot"					"primary"
@@ -2072,7 +2067,7 @@ Tachy's Playtest weapon."
 
 Weapon by: 'Tachy'
 Tachy's Playtest weapon."
-			"item_quality"		"selfmade"
+			"item_quality"		"strange"
 			"item_logname" "samrevolver"
 			"item_iconname" "samrevolver"
 			"item_class"	"tf_weapon_revolver"
@@ -2144,7 +2139,7 @@ Tachy's Playtest weapon."
 Weapon by: 'Tachy'
 Named by 'Gigachad Gaming'.
 Tachy's Playtest weapon."
-			"item_quality"		"selfmade"
+			"item_quality"		"strange"
 
 			"item_class"	"tf2c_weapon_umbrella"
 			"item_slot"		"melee"
@@ -2184,7 +2179,7 @@ Tachy's Playtest weapon."
 			"item_type_name"	"Nothing"
 			"item_description"	"Weapon by: 'Tachy'.
 Tachy's Playtest weapon."
-			"item_quality"		"selfmade"
+			"item_quality"		"strange"
 
 			"item_class"	"tf_wearable"
 			"item_slot"		"secondary"
@@ -2214,7 +2209,7 @@ Tachy's Playtest weapon."
 			"item_type_name"	"Wearable"
 			"item_description"	"Weapon by: 'Tachy'.
 Tachy's Playtest weapon."
-			"item_quality"		"selfmade"
+			"item_quality"		"strange"
 
 			"item_class"	"tf_wearable"
 			"item_slot"		"secondary"
@@ -2254,7 +2249,7 @@ Tachy's Playtest weapon."
 			"item_type_name"	"Voice"
 			"item_description"	"Weapon by: 'Tachy'.
 Tachy's Playtest weapon."
-			"item_quality"		"selfmade"
+			"item_quality"		"strange"
 
 			"item_class"		"tf_wearable"
 			"item_slot"			"secondary"
@@ -2286,7 +2281,7 @@ Tachy's Playtest weapon."
 			"item_type_name"	"Holy Text"
 			"item_description"	"Weapon by: 'Tachy'.
 Tachy's Playtest weapon."
-			"item_quality"		"selfmade"
+			"item_quality"		"strange"
 			"propername"		"1"
 
 			"item_class"	"tf_wearable"
