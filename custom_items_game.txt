@@ -563,6 +563,11 @@ Old Playtest weapon."
 					"attribute_class"	"mult_postfiredelay"
 					"value"	"1.2"
 				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}
 			}
 			"hide_bodygroups_deployed_only"	"1"
 			"visuals"
@@ -2109,7 +2114,7 @@ Tachy's Playtest weapon."
 				"apply self knockback"
 				{
 					"attribute_class"	"apply_self_knockback"
-					"value"				"550"
+					"value"				"650"
 				}
 				"damage penalty"
 				{
@@ -2254,6 +2259,11 @@ Tachy's Playtest weapon."
 					"attribute_class"	"add_maxhealth"
 					"value"				"-25"
 				}
+				"allowed in medieval mode"
+				{
+					"attribute_class"	"allowed_in_medieval_mode"
+					"value"				"1"
+				}
 			}
 			
 			"anim_slot"			    "FORCE_NOT_USED"
@@ -2337,7 +2347,7 @@ Tachy's Playtest weapon."
 			"mouse_pressed_sound"	"ui/item_pack_pickup.wav"
 			"drop_sound"			"ui/item_pack_drop.wav"
 		}
-		"30110" // Coilgun
+		"30110" // Coilgun - might delete later
 		{
 			"name"				"tachy_Coilgun"
 			"item_type_name"	"#TF_Weapon_Coilgun"
@@ -2385,12 +2395,12 @@ Tachy's Playtest weapon."
 				"projectile spread angle penalty"
 				{
 					"attribute_class" "projectile_spread_angle"
-					"value" "22"
+					"value" "20"
 				}
 				"custom rampup"
 				{
 					"attribute_class"	"mod_custom_rampup"
-					"value"				"0.2"
+					"value"				"0.25"
 				}
 			}
 
