@@ -1813,7 +1813,7 @@ Tachy's Playtest weapon."
 				"custom rampup"
 				{
 					"attribute_class"	"mod_custom_rampup"
-					"value"				"0.3"
+					"value"				"0.5"
 				}
 				"mini rockets"
 				{
@@ -2001,6 +2001,11 @@ Tachy's Playtest weapon."
 			}
             "attributes"
             {
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value" "0.65"
+				}
 				"energy weapon no deflect"
 				{
 					"attribute_class"	"energy_weapon_no_deflect"
@@ -2049,13 +2054,10 @@ Tachy's Playtest weapon."
 			}
 			"visuals"
 			{
-				"sound_reload"	"Taunt.BumpkinsBanjoMusicFast"
 				"sound_empty"		"Weapon_AAGun.ClipEmpty"
 				"sound_single_shot"	"Weapon_ShootingStar.Single"
 				"sound_double_shot"	"Weapon_ShootingStar.SingleCharged"
 				"sound_special1"	"Weapon_AAGun.Explode"
-				"sound_special2"	"Taunt.BumpkinsBanjoMusic"
-				"sound_special3"	"Taunt.BumpkinsBanjoMusicStop"
 				"sound_burst"		"Weapon_ShootingStar.SingleCrit"
 				"animation_replacement"
 				{
@@ -2107,7 +2109,7 @@ Tachy's Playtest weapon."
 				"apply self knockback"
 				{
 					"attribute_class"	"apply_self_knockback"
-					"value"				"250"
+					"value"				"450"
 				}
 				"damage penalty"
 				{
@@ -2146,7 +2148,7 @@ Tachy's Playtest weapon."
 			"model_player"	"models/workshop/weapons/c_models/c_ttg_sam_gun/c_ttg_sam_gun.mdl"
 			"xifier_class_remap"	"TTG Sam Revolver"
 		}
-		"30105" // The sacred healer - lazy to explain what it do
+		"30105" // The sacred healer
 		{
 			"name"				"serider_heal"
 			"item_name"			"The sacred healer"
@@ -2383,12 +2385,12 @@ Tachy's Playtest weapon."
 				"projectile spread angle penalty"
 				{
 					"attribute_class" "projectile_spread_angle"
-					"value" "25"
+					"value" "22"
 				}
 				"custom rampup"
 				{
 					"attribute_class"	"mod_custom_rampup"
-					"value"				"0.1"
+					"value"				"0.15"
 				}
 			}
 
