@@ -1707,8 +1707,6 @@ Old Playtest weapon."
 			"drop_sound"			"ui/item_light_gun_drop.wav"
 		}
 
-//			this will be the last time i do playtest of my items, most likely. -tachy
-
 		"30100" // Air dominance | i am tired of tweaking it -tachy
 		{
 			"name"				"tachy_air_dominance"
@@ -2324,54 +2322,6 @@ Tachy's Playtest weapon."
 			"image_inventory"		"backpack/weapons/w_models/w_bible"
 			"mouse_pressed_sound"	"ui/item_pack_pickup.wav"
 			"drop_sound"			"ui/item_pack_drop.wav"
-		}
-//			this will be the last time i do playtest of my items, most likely. -tachy
-"30110" // Medi Gun
-		{
-			"name"				"TF_WEAPON_MEDIGUN_TEST"
-			"item_name"			"TF_WEAPON_MEDIGUN_TEST"
-			"item_type_name"	"#TF_Weapon_MediGun"
-			"item_description"	"#TF_Weapon_MediGun_Desc"
-			"item_quality"		"normal"
-
-			"item_class"	"tf_weapon_medigun"
-			"item_slot"		"secondary"
-			"used_by_classes"
-			{
-				"Medic"	"1"
-			}
-
-			"model_player"		"models/weapons/v_models/v_medigun_medic.mdl"
-			"model_world"		"models/weapons/w_models/w_medigun.mdl"
-			"attach_to_hands"	"2"
-			"extra_wearable" 	"models/player/items/medic_backpack.mdl"
-			"equip_region"		"medigun_backpack"
-			"static_attrs"
-			{
-				"min_viewmodel_offset"	"10 0 -9"
-			}
-			"attributes"
-			{
-				"mod ubercharge cond"
-				{
-					"attribute_class" "mod_ubercharge_cond"
-					"value" "86"
-				}
-				"heal rate bonus"
-				{
-					"attribute_class" "mult_medigun_healrate"
-					"value" "0"
-				}
-				"overheal bonus"
-				{
-					"attribute_class" "mult_medigun_overheal_amount"
-					"value" "0"
-				}
-			}
-
-			"image_inventory"		"backpack/weapons/w_models/w_medigun"
-			"mouse_pressed_sound"	"ui/item_medigun_pickup.wav"
-			"drop_sound"			"ui/item_heavy_gun_drop.wav"
 		}
 	}
 }
