@@ -55,11 +55,12 @@ Current Issues:
         }
 		"15006"
         {
-            "name"                  "tachy vishwakarma 2 text"
+            "name"                  "tachy early plans text"
             "description_string"    "
 What's planned:
-- Custom Weapon Model based on dispenser
-- Custom Sound"
+- Custom Weapon Model
+- Custom Sound
+- Better Weapon name"
             "description_format"    "value_is_additive"
             "custom_color"          "135 255 50 255"
         }
@@ -2032,7 +2033,7 @@ Tachy's Playtest weapon."
 					"value" "1"
 				}
 				"tachy vishwakarma text"		"1"
-				"tachy vishwakarma 2 text"	"1"
+				"tachy early plans text"	"1"
 				"hidden separator"		"1"
 				"override projectile type"
 				{
