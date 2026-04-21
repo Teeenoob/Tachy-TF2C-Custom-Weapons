@@ -62,23 +62,6 @@ Kiri"
             "description_format"    "value_is_additive"
             "custom_color"          "135 255 50 255"
         }
-        "15007"
-        {
-            "name"                  "tachy bounce explain"
-            "attribute_class"       "tachy_bounce_explain"
-            "description_string"    "Fully charged shots bounce %s1 times more
-Damage is reduced for every bounce"
-            "description_format"    "value_is_additive"
-            "custom_color"          "255 255 120 255"
-        }
-        "15008"
-        {
-            "name"                  "tachy projectiles per shot explain"
-            "attribute_class"       "tachy_projectiles_per_shot_explain"
-            "description_string"    "Shots %s1 more projectile(s)"
-            "description_format"    "value_is_additive"
-            "effect_type"           "positive"
-        }
     }
 	"prefabs"
 	{
@@ -1634,7 +1617,7 @@ Tachy's Playtest weapon."
 				"custom rampup"
 				{
 					"attribute_class"	"mod_custom_rampup"
-					"value"				"0.45"
+					"value"				"0.4"
 				}
 				"mini rockets"
 				{
