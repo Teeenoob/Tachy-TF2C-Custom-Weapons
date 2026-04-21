@@ -658,65 +658,6 @@ Old Playtest weapon."
 			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
 			"drop_sound"		"ui/item_bottle_drop.wav"
 		}
-		"264" // Frying Pan - reskin
-		{
-			"name"	"Frying Pan"
-			"item_class"	"saxxy"
-			"prefab"	"weapon_melee_allclass"
-			"tags"
-			{
-				"can_deal_damage"			"1"
-				"can_deal_critical_damage"	"1"
-				"can_be_equipped_by_soldier_or_demo"	"1"
-			}
-			"item_logname"	"fryingpan"
-			"item_iconname"	"fryingpan"
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Weapon_FryingPan"
-			"item_name"	"#TF_Unique_FryingPan"
-			"item_slot"	"melee"
-			"image_inventory"	"backpack/player/items/all_class/all_pan"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/c_models/c_frying_pan/c_frying_pan.mdl"
-			"attach_to_hands"	"1"
-			"inspect_panel_dist" "40"
-			"item_quality"	"normal"
-			"propername"	"1"
-			"anim_slot" "MELEE_ALLCLASS"
-			"xifier_class_remap"	"Frying Pan"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"engineer"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"pyro" "1"
-				"spy" "1"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"		"10 0 -7"
-			}
-			"visuals"
-			{
-				"animation_replacement"
-				{
-					"ACT_MP_ATTACK_STAND_MELEE_ALLCLASS"	"ACT_MP_ATTACK_STAND_MELEE"
-					"ACT_MP_ATTACK_CROUCH_MELEE_ALLCLASS"	"ACT_MP_ATTACK_CROUCH_MELEE"
-					"ACT_MP_ATTACK_SWIM_MELEE_ALLCLASS"	"ACT_MP_ATTACK_SWIM_MELEE"
-				}
-				"sound_melee_hit"		"FryingPan.HitFlesh"
-				"sound_melee_hit_world"	"FryingPan.HitWorld"
-				"sound_melee_miss"	"Weapon_Machete.Miss"
-				"sound_burst"		"Weapon_Machete.MissCrit"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
-			"drop_sound"		"ui/item_metal_weapon_drop.wav"
-		}
 		"1123" // Necro Smasher - reskin
 		{
 			"name"	"Necro Smasher"
@@ -1036,53 +977,6 @@ Old Playtest weapon."
 			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
 			"drop_sound"		"ui/item_bottle_drop.wav"
 		}
-		"954" // Memory Maker - reskin
-		{
-			"name"	"Memory Maker"
-			"item_class"	"saxxy"
-			"prefab"	"weapon_melee_allclass"
-			"item_logname"	"memory_maker"
-			"item_iconname"	"memory_maker"
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Weapon_Camera"
-			"item_name"	"#TF_Memory_Maker"
-			"item_description"	"#TF_Memory_Maker_Desc"
-			"item_slot"	"melee"
-			"image_inventory"	"backpack/weapons/c_models/c_8mm_camera/c_8mm_camera"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/c_models/c_8mm_camera/c_8mm_camera.mdl"
-			"attach_to_hands"	"1"
-			"item_quality"	"normal"
-			"anim_slot" "MELEE_ALLCLASS"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"pyro" "1"
-			}
-			"attributes"
-			{
-				"cannot trade"	
-				{
-					"attribute_class"	"cannot_trade"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"sound_melee_hit_world"	"Weapon_Machete.HitWorld"
-				"sound_melee_miss"	"Weapon_Machete.Miss"
-				"sound_melee_hit"	"Weapon_Machete.HitFlesh"
-				"sound_burst"		"Weapon_Machete.MissCrit"
-			}
-			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
-			"drop_sound"		"ui/item_metal_weapon_drop.wav"
-		}
 		"1013" // The Ham Shank - reskin
 		{
 			"name"	"The Ham Shank"
@@ -1398,84 +1292,6 @@ Old Playtest weapon."
 					"value"		  		"1"
 				}
 			}
-			"mouse_pressed_sound"	"ui/item_mtp_pickup.wav"
-			"drop_sound"			"ui/item_mtp_drop.wav"
-		}
-		"741" // The Rainblower - note: that there's weird missing model when taunting, or at least on my side ( - reskin )
-		{
-			"name"	"The Rainblower"
-			"item_name"	"#TF_Rainblower"
-			"item_type_name"	"#TF_Weapon_Flamethrower"
-			"item_description"	"#TF_Rainblower_Desc"
-			"item_quality"	"normal"
-			
-			"item_class"	"tf_weapon_flamethrower"
-			"item_slot"	"primary"
-			"used_by_classes"
-			{
-				"pyro"	"1"
-			}
-			
-			"model_player"	"models/weapons/c_models/c_rainblower/c_rainblower.mdl"
-			"model_vision_filtered"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
-			"attach_to_hands"	"1"
-			"static_attrs"
-			{
-				"flamethrower explain"			"1"
-				"min_viewmodel_offset"					"10 0 -23"	
-
-				"flame_gravity"					"0"
-				"flame_drag"					"8.500000"
-				"flame_up_speed"				"50"
-				"flame_speed"					"2450"
-				"flame_spread_degree"			"2.800000"
-				"flame_lifetime"				"0.600000"
-				"flame_random_life_time_offset"	"0.100000"
-				"flame_velocity_fade_start"		"0.300000"
-				"flame_velocity_fade_end"		"0.500000"	
-			}
-			"item_logname"	"rainblower"
-			"item_iconname"	"rainblower"
-			"show_in_armory"	"1"
-			"propername"	"1"
-			"attributes"
-			{
-				"vision opt in flags"
-				{
-					"attribute_class"	"vision_opt_in_flags"
-					"value"				"1"
-				}
-				"lunchbox adds minicrits"
-				{
-					"attribute_class"	"set_weapon_mode"
-					"value"	"3"
-				}
-				"pyrovision only DISPLAY ONLY"
-				{
-					"attribute_class"	"pyrovision_only_display"
-					"value"				"1"
-				}
-				"pyrovision opt in DISPLAY ONLY"
-				{
-					"attribute_class" 	"pyrovision_opt_in_display_only"
-					"value"		  		"1"
-				}
-				"special taunt"
-				{
-					"attribute_class"	"special_taunt"
-					"value" "1"
-				}
-			}
-			"visuals"
-			{
-				"sound_single_shot"		"Weapon_Rainblower.Fire"			
-				"sound_special1"		"Weapon_Rainblower.FireLoop"			
-				"sound_special2"		"Weapon_Rainblower.PilotLoop"			
-				"sound_special3"		"Weapon_Rainblower.WindDown"			
-			}
-			"image_inventory"	"backpack/weapons/c_models/c_rainblower/c_rainblower"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
 			"mouse_pressed_sound"	"ui/item_mtp_pickup.wav"
 			"drop_sound"			"ui/item_mtp_drop.wav"
 		}
@@ -1934,214 +1750,9 @@ Tachy's Playtest weapon."
 			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
 			"drop_sound"		"ui/item_metal_weapon_drop.wav"
 		}
-		"30102" // needs to be replaced - needs to be replaced - needs to be replaced - needs to be replaced - needs to be replaced
-		{
-			"name"				"TF_WEAPON_MVM_SNIPERRIFLE"
-			"item_name"			"MVM Sniper Rifle"
-			"item_type_name"	"#TF_Weapon_SniperRifle"
-			"item_description"	"If your strategy is to build me confidence, it's working.
-
-Weapon by: 'Tachy'.
-Tachy's Playtest weapon."
-			"item_quality"		"strange"
-
-			"item_class"	"tf_weapon_sniperrifle"
-			"item_slot"		"primary"
-			"used_by_classes"
-			{
-				"Sniper"	"1"
-			}
-
-			"model_player"		"models/weapons/v_models/v_sniperrifle_sniper.mdl"
-			"model_world"		"models/weapons/w_models/w_sniperrifle.mdl"
-			"attach_to_hands"	"2"
-			"static_attrs"
-			{
-				"min_viewmodel_offset"			"10 0 -10"
-			}
-			"attributes"
-			{
-				"tachy infinite ammo explain"		"1"
-				"mod set sniper laser sight"
-				{
-					"attribute_class"	"mod_set_sniper_laser_sight"
-					"value" "1"
-				}
-				"tachy sniper laser sight explain"	"1"
-				"hidden primary max ammo bonus"
-				{
-					"attribute_class"	"mult_maxammo_primary"
-					"value"	"44"
-				}
-				"hide ammo hud"
-				{
-					"attribute_class"	"hide_ammo_hud"
-					"value"	"1"
-				}
-			}
-			"visuals"
-			{
-				"sound_special2"	"Weapon_SniperRailgun.NonScoped"
-			}
-			"image_inventory"		"backpack/weapons/w_models/w_sniperrifle"
-			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
-			"drop_sound"			"ui/item_heavy_gun_drop.wav"
-		}
-		"30103" // needs to be replaced - needs to be replaced - needs to be replaced - needs to be replaced - needs to be replaced
-		{
-			"name"				"tachy_lilith"
-			"item_name"			"lilith"
-			"item_type_name"	"Energy Cannon"
-			"item_description"	"Engineer is credit to team!
-
-Weapon by: 'Tachy'
-Tachy's Playtest weapon."
-			"item_quality"		"strange"
-
-			"item_class"				"tf2c_weapon_aagun"
-			"item_slot"					"primary"
-			"used_by_classes"
-			{
-				"Heavy"	"1"
-			}
-            "attributes"
-            {
-				"energy weapon no deflect"
-				{
-					"attribute_class"	"energy_weapon_no_deflect"
-					"value" "1"
-				}
-				"subtract victim medigun charge on hit"
-				{
-					"attribute_class"	"subtract_victim_medigun_charge_onhit"
-					"value" "10"
-				}
-				"subtract victim cloak on hit"
-				{
-					"attribute_class"	"subtract_victim_cloak_on_hit"
-					"value" "20"
-				}
-				"energy weapon no hurt building"
-				{
-					"attribute_class"	"energy_weapon_no_hurt_building"
-					"value" "1"
-				}
-				"tachy vishwakarma text"		"1"
-				"hidden separator"		"1"
-				"override projectile type"
-				{
-					"attribute_class"	"override_projectile_type"
-					"value"	"13"
-				}
-				"custom projectile origin offset"
-				{
-					"attribute_class"	"custom_projectile_origin_offset"
-					"value"	"10 5 -9"
-				}
-            }
-			"model_world"		"models/weapons/w_models/w_aagun.mdl"
-			"model_player"		"models/weapons/v_models/v_aagun_heavy.mdl"
-			"attach_to_hands"	"2"
-			"static_attrs"
-			{
-				"min_viewmodel_offset"	"10 5 -9"
-			}
-			"visuals"
-			{
-				"sound_empty"		"Weapon_AAGun.ClipEmpty"
-				"sound_single_shot"	"Weapon_ShootingStar.Single"
-				"sound_double_shot"	"Weapon_ShootingStar.SingleCharged"
-				"sound_special1"	"Weapon_AAGun.Explode"
-				"sound_burst"		"Weapon_ShootingStar.SingleCrit"
-				"animation_replacement"
-				{
-					"ACT_MP_ATTACK_STAND_PRIMARY"	"ACT_MP_ATTACK_STAND_PRIMARY_ALT"
-					"ACT_MP_ATTACK_CROUCH_PRIMARY"	"ACT_MP_ATTACK_CROUCH_PRIMARY_ALT"
-					"ACT_MP_ATTACK_SWIM_PRIMARY"	"ACT_MP_ATTACK_SWIM_PRIMARY_ALT"
-				}
-			}
-			"item_logname"	"aagun"
-			"item_iconname"	"aa_cannon"
-
-			"image_inventory"		"backpack/weapons/w_models/w_aagun"
-			"mouse_pressed_sound"	"ui/item_heavier_gun_pickup.wav"
-			"drop_sound"			"ui/item_heavier_gun_drop.wav"
-		}
-		"30104" // Self-Shooter
-		{
-			"name"				"serider_self_jumper"
-			"tags"
-			{
-				"can_deal_damage"			"1"
-				"can_deal_critical_damage"	"1"
-			}
-			"item_name"			"Self-Jumper"
-			"item_description"	"A special no-damage revolver for learning jump tricks and patterns.
-
-Weapon by: 'Tachy'
-Tachy's Playtest weapon."
-			"item_quality"		"strange"
-			"item_logname" "samrevolver"
-			"item_iconname" "samrevolver"
-			"item_class"	"tf_weapon_revolver"
-			"item_slot"		"secondary"
-			"used_by_classes"
-			{
-				"Spy"		"1"
-			}
-			"propername"	"1"
-			"attach_to_hands" "1"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"attach_to_hands"		"1"
-			"static_attrs"
-			{
-				"min_viewmodel_offset"	"10 0 -6"
-			}
-			"attributes"
-			{
-				"apply self knockback"
-				{
-					"attribute_class"	"apply_self_knockback"
-					"value"				"600"
-				}
-				"damage penalty"
-				{
-					"attribute_class"	"mult_dmg"
-					"value"	"0"
-				}
-				"cannot pick up intelligence"
-				{
-					"attribute_class"	"cannot_pick_up_intelligence"
-					"value"				"1"
-				}
-				"hidden separator"		"1"
-				"auto fires full clip"
-				{
-					"attribute_class"	"auto_fires_full_clip"
-					"value"	"1"
-				}
-				"clip size penalty HIDDEN"
-				{
-					"attribute_class"	"mult_clipsize"
-					"value" "0.1"
-				}
-				"hidden secondary max ammo penalty"
-				{
-					"attribute_class"	"mult_maxammo_secondary"
-					"value" "0.2"
-				}
-			}
-			"visuals"
-			{
-				"sound_single_shot"	"Weapon_Rocket_Jumper.Single"
-			}
-			"image_inventory"		"backpack/workshop/weapons/c_models/c_ttg_sam_gun/c_ttg_sam_gun"
-			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
-			"drop_sound"		"ui/item_light_gun_drop.wav"
-			"model_player"	"models/workshop/weapons/c_models/c_ttg_sam_gun/c_ttg_sam_gun.mdl"
-			"xifier_class_remap"	"TTG Sam Revolver"
-		}
+		// TF2C SPECIFIC - TF2C SPECIFIC - TF2C SPECIFIC - TF2C SPECIFIC - TF2C SPECIFIC
+		// TF2C SPECIFIC - TF2C SPECIFIC - TF2C SPECIFIC - TF2C SPECIFIC - TF2C SPECIFIC
+		// TF2C SPECIFIC - TF2C SPECIFIC - TF2C SPECIFIC - TF2C SPECIFIC - TF2C SPECIFIC
 		"30105" // The sacred healer
 		{
 			"name"				"serider_heal"
@@ -2215,9 +1826,9 @@ Tachy's Playtest weapon."
 			"mouse_pressed_sound"	"ui/item_umbrella_pickup.wav"
 			"drop_sound"			"ui/item_hat_drop.wav"
 		}
-		"30107" // serider_civ_overheal
+		"30107" // civ_overheal
 		{
-			"name"				"serider_civ_overheal"
+			"name"				"civ_overheal"
 			"item_name"			"Overheal"
 			"item_type_name"	"Wearable"
 			"item_description"	"Weapon by: 'Tachy'.
@@ -2260,9 +1871,9 @@ Tachy's Playtest weapon."
 			"mouse_pressed_sound"	"ui/item_umbrella_pickup.wav"
 			"drop_sound"			"ui/item_hat_drop.wav"
 		}
-		"30108" // serider_civ_walkie_talkie
+		"30108" // civ_walkie_talkie
 		{
-			"name"				"serider_civ_walkie_talkie"
+			"name"				"civ_walkie_talkie"
 			"item_name"			"Walkie-talkie Voice"
 			"item_type_name"	"Voice"
 			"item_description"	"Weapon by: 'Tachy'.
@@ -2291,50 +1902,6 @@ Tachy's Playtest weapon."
 			"image_inventory_size_h" "96"
 			"mouse_pressed_sound"	"ui/item_umbrella_pickup.wav"
 			"drop_sound"			"ui/item_hat_drop.wav"
-		}
-		"30109" // Holy Bible - opinion needed on this one
-		{
-			"name"				"The Holy Bible Civ"
-			"item_name"			"Holy Bible"
-			"item_type_name"	"Holy Text"
-			"item_description"	"Weapon by: 'Tachy'.
-Tachy's Playtest weapon."
-			"item_quality"		"strange"
-			"propername"		"1"
-
-			"item_class"	"tf_wearable"
-			"item_slot"		"secondary"
-			"anim_slot"		"FORCE_NOT_USED"
-			"act_as_wearable"	"1"
-			"used_by_classes"
-			{
-				"Civilian"	"1"
-			}
-			"attributes"
-			{
-				"dmg taken from crit reduced"
-				{
-					"attribute_class" "mult_dmgtaken_from_crit"
-					"value" "0.8"
-				}
-				"damage force increase"
-				{
-					"attribute_class" "damage_force_reduction"
-					"value" "1.2"
-				}
-				"allowed in medieval mode"
-				{
-					"attribute_class"	"allowed_in_medieval_mode"
-					"value"				"1"
-				}
-			}
-
-			"item_logname"	"rapture"
-			"item_iconname"	"rapture"
-
-			"image_inventory"		"backpack/weapons/w_models/w_bible"
-			"mouse_pressed_sound"	"ui/item_pack_pickup.wav"
-			"drop_sound"			"ui/item_pack_drop.wav"
 		}
 	}
 }
